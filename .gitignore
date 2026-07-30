@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Next.js
+.next/
+out/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Databases and local uploads
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Logs and OS files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Tooling/runtime
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/

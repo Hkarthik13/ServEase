@@ -1,0 +1,43 @@
+# Core Django
+Django>=5.0.0
+djangorestframework>=3.14.0
+django-cors-headers>=4.3.0
+django-filter>=23.0
+django-redis>=5.4.0
+
+# JWT Authentication
+djangorestframework-simplejwt>=5.3.0
+PyJWT>=2.8.0
+
+# Database - Use pymysql for Windows compatibility
+pymysql>=1.1.0
+
+# Celery & Redis
+celery>=5.3.0
+redis>=5.0.0
+django-celery-beat>=2.5.0
+
+# Utilities
+python-decouple>=3.8
+python-dotenv>=1.0.0
+
+# SMS & Email
+twilio>=8.10.0
+
+# Payments
+razorpay>=1.4.0
+stripe>=8.0.0
+
+# File Storage
+cloudinary>=1.40.0
+
+# Firebase
+firebase-admin>=6.4.0
+
+# AI & ML (optional)
+# scikit-learn>=1.4.0
+# numpy>=1.26.0
+# pandas>=2.2.0
+
+# Development
+django-debug-toolbar>=4.3.0
